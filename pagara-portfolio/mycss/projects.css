@@ -1,0 +1,205 @@
+body, .container-fluid {
+    background-image: url('/pagara-portfolio/myimg/bg2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+.container-fluid {
+    background-color: #DA6A00;
+}
+.btn {
+    color: #FEFEFE;
+}
+
+
+.navbar  navbar-expand-lg bg-body-tertiary {
+    position: fixed;
+}
+.contents {
+    margin-top: 10vh; 
+    align-items: center;
+    margin-left: 5%; 
+    height: auto; 
+    width: 90%; 
+    max-width: 500px; 
+}
+
+.contents h2 {
+    font-family: 'Georgia', serif;
+    font-size: 5vw; /* Use viewport width for font size */
+    color: black;
+}
+
+.contents h3 {
+    font-family: 'Georgia', serif;
+    font-size: 4vw; /* Use viewport width for font size */
+    color: #FEFEFE;
+}
+
+main {
+    height: auto; /* Allow height to adjust based on content */
+    display: flex;
+    flex-direction: column; /* Stack items vertically on small screens */
+    align-items: center; /* Center align items */
+}
+
+main img {
+    width: 90%; /* Use a percentage for width */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10vh; /* Use viewport height for margin */
+}
+
+/* Media Queries for larger screens */
+@media (min-width: 768px) {
+    .contents {
+        margin-left: 10%; /* More margin on larger screens */
+        margin-top: 200px; /* Original margin for larger screens */
+    }
+
+    main {
+        flex-direction: row; /* Side by side on larger screens */
+        align-items: center; /* Align items in the center */
+    }
+
+    main img {
+        width: 500px; /* Fixed width for larger screens */
+    }
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+}
+
+.carousel-container {
+    margin-top: 100px;
+    height: 400px;
+    width: 500px;
+    align-items: center;
+    
+    background-color: #DA6A00;
+}
+.break {
+    margin-top: 100px;
+    border: none;   
+    height: 10px;    
+    color: #FEFEFE;
+    background-color: white;
+}
+
+.carousel-item {
+    height: 600px;
+    width: 100%;
+
+}
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-item h5 {
+    background-color: rgb(55,55,55, 0.5);
+}
+.text-left{
+    text-align: left;
+     
+    margin-top: 100px;
+    margin-left: 10PX;
+    margin-right: 10px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(55,55,55, 0.3);
+    border-radius: 10px;
+}
+
+.content {
+    display: flex; 
+    align-items: flex-start; 
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.contents {
+    animation: fadeIn 1s ease-in; 
+}
+
+.break2 {
+    margin-top: 50px;
+    border: none;   
+    height: 10px;    
+    color: #FEFEFE;
+    background-color: white;
+}
+.arcticons--rdclient {
+    margin-top: 10px;
+    margin-left: 500px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' d='M37.65 20.05V6.85H4.55v22h14.9V33c0 1 .1 2-2.4 2.1h-2.9a2.15 2.15 0 0 0-2.1 2.1h12'/%3E%3Ccircle cx='32.45' cy='30.15' r='11' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' d='m37 24l-3.9 3.9l3.9 3.9m-8.95-3.25l3.9 3.9l-3.9 3.9m-8.6-7.5h2'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    color: #FEFEFE;
+  }
+  .container3{
+    height: 55px;
+    display: flex;
+    background-color: #DA6A00;
+}
+.content2 {
+    display: flex;
+    align-items: space-around;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-family: 'Georgia', serif;
+    color: #FEFEFE;
+}
+.feedback-section {
+    max-width: 800px;
+    margin:auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.feedback {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.feedback:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.client-name {
+    font-weight: bold;
+    color: #333;
+}
+.client-feedback {
+    margin-top: 5px;
+    color: #555;
+}

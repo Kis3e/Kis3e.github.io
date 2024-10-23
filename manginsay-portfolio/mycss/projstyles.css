@@ -1,0 +1,33 @@
+body {
+    background-color: #E36E00;
+}
+
+.brown-background {
+    background-color: #3e1e00be;
+}
+
+.navi {
+    background-color: #3e1e00be;
+}
+
+.project {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text {
+    background-color: #924600;
+    font-family: 'Righteous';
+}
+
+.text p {
+    text-align: justify;
+    font-family: 'Montserrat';
+}
+
+@media (max-width: 767px) {
+    .text {
+        text-align: center;
+        padding: 10px;
+    }
+}

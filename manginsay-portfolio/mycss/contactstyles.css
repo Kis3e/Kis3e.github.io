@@ -1,0 +1,27 @@
+body {
+    background-color: #E36E00;
+}
+
+.brown-background {
+    background-color: #3e1e00be;
+}
+
+.navi {
+    background-color: #3e1e00be;
+}
+
+.containerr {
+    background-color: #E36E00;
+}
+
+.contact{
+    background-color: #C15E00;
+    margin-top: 6.5%;
+    margin-bottom: 6.5%;
+}
+
+.contact .row {
+    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-top: 5%;
+}

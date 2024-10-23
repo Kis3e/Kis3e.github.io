@@ -1,0 +1,21 @@
+body {
+    background-color: #E36E00;
+}
+
+.brown-background {
+    background-color: #3e1e00be;
+}
+
+.navi {
+    background-color: #3e1e00be;
+}
+
+.text {
+    line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+    .education, .skills, .work-exp {
+        text-align: center;
+    }
+}

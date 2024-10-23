@@ -1,0 +1,31 @@
+body {
+  font-family: "Poppins";
+  background-image: url("/img/bg1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.btn-learn-more {
+  background-color: #d77f37;
+}
+
+#nameTag {
+  color: #ff8d15;
+}
+
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+.card {
+  animation: fade-down 0.5s;
+}

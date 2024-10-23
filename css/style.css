@@ -1,0 +1,94 @@
+body {
+  font-family: "Poppins";
+  background-image: linear-gradient(
+    to left bottom,
+    #222222,
+    #33181d,
+    #62282c,
+    #c07e45,
+    #d77f37,
+    #d07035,
+    #c96234,
+    #c15333,
+    #933b33,
+    #62282c,
+    #33181d,
+    #000000
+  );
+}
+
+.social-icons img {
+  width: 60px;
+  height: 80px;
+  filter: brightness(0);
+}
+
+.card {
+  transition: all 0.3s;
+  box-shadow: -10px 15px rgba(0, 0, 0, 0.281);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0px 100px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  transition: all 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+}
+
+#nameTag {
+  color: #ff8d15;
+}
+
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+#team-section,
+#team-photo-description,
+#portfolio-section,
+.container,
+.img-fluid {
+  animation: fade-down 0.5s;
+}
+
+.btn-learn-more {
+  background-color: #fd6f00;
+  color: #fff;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  border: 2px solid #000;
+}
+
+.btn-learn-more:hover {
+  background-color: #d9d9d980;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.btn-contact-us {
+  background-color: #fd6f00;
+  color: #fff;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  border: 2px solid #000;
+}
+
+.btn-contact-us:hover {
+  background-color: #d9d9d980;
+  color: #000;
+  border: 2px solid #000;
+}

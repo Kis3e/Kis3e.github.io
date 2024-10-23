@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Londrina Sketch';
+    src: url('fonts/LondrinaSketch-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{
+    background-color: #df6e20;
+}
+ul{ padding: 0; margin: 0;}
+ul li{ list-style: none; display: inline-block;}
+
+img{
+    height: auto;
+    max-width: 100%;
+}
+.navbar{
+    background-color: #df6e20!important;
+}
+.navbar a{
+    color: #fff!important;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.content{
+    color: #fff; 
+}
+
+h2{
+    font-size: 60px;
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 100px;
+} 
+
+.profile{position: sticky; top: 100px;}
+.profile h1 span{display: block; text-transform: uppercase;}
+.profile h1 span.title{font-size: 24px; margin: 10px 0;}
+.profile h1 span:last-child{font-size: 20px; margin-bottom: 15px;}
+
+.contact{
+    text-align: center;
+}
+
+.contact ul li:not(:last-child){margin-right: 15px;}
+
+.contact ul li a{
+    color: #333;
+    font-size: 30px;
+}
+
+.intro{text-align: justify; margin-bottom: 50px;}
+
+.skills > div{display: flex; flex-wrap: wrap; align-items: center;}
+.skills > div > div:first-child{
+    width: 120px;
+    text-align: right;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.skills > div > div:last-child{width: calc(100% - 120px);}
+
+.progress{background-color: transparent;}
+.progress-bar{border-radius: 6px;}
+.progress-bar.bg-success{
+    background-color: #08060691!important;
+} 
+
+.certs{max-width: 700px; margin-bottom: 30px;}
+
+.proj{ 
+    height: 500px; 
+    overflow: hidden; 
+    position: relative;
+    margin-bottom: 30px;
+}
+.proj img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.cv{
+    background-color: #333!important;
+    border-color: #333!important;
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand img{width: 150px;}
+    .profile{margin-top: 70px; position: relative; top: unset; }
+    h2{font-size: 40px; padding-top: 50px;}
+}
